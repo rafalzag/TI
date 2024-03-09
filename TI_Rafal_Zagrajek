@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praca_25.02.2024</title>
+</head>
+
+<script>
+ /*
+ const imie = 'Rafal'
+const nazwisko = 'Zagrajek'
+let wiek = 33
+const ulubiony_kolor = 'Udziwniony'
+const miasto_urodzenia = 'Warszawa'
+nie widzę zastosowania var-u tutaj :) wolę const :)
+*/
+</script>
+
+<body>
+
+    <div>
+        nasze zmienne: <br> a = 8 <br> b = 11
+    </div>
+
+const a = 8;
+const b = 11;
+ 
+ 
+const dodawanie = a + b;
+document.write("dodawanie = " + dodawanie + "<br>");
+console.log(a + b);
+ 
+const odejmowanie = a - b;
+document.write("odejmowanie = " + odejmowanie + "<br>");
+console.log(a - b);
+ 
+const mnozenie = a * b;
+document.write("mnożenie =" + mnozenie + "<br>");
+console.log(a * b);
+ 
+const dzielenie = a / b;
+document.write('dzielenie =' + dzielenie + "<br>");
+console.log(a / b);
+ 
+const modulus = a % b;
+document.write('modulus =' + modulus + "<br>");
+console.log(8 % 11);
+ 
+const pierwiastek_a = (Math.sqrt(a));
+document.write('pierwiastek z a =' + pierwiastek_a + "<br>");
+console.log(Math.sqrt(a));
+ 
+const pierwiastek_b = (Math.sqrt(b));
+document.write('pierwiastek z b =' + pierwiastek_b + '<br>');
+console.log(Math.sqrt(b));
+
+</body>
+</html>
